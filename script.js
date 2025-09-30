@@ -27,3 +27,7 @@ inputs.forEach( (input, index) => {
     } ) ;
 
 }) ;
+
+window.onload = function() {
+  document.getElementById('code-1').focus();
+}
